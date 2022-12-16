@@ -1,2 +1,2 @@
 # experiments
-Задача с флексами
+Задача с флексами - https://maxpodivilov.github.io/experiments/flex/

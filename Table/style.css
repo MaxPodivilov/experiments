@@ -1,0 +1,45 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0px;
+    row-gap: 0px;
+}
+.box {
+    width: 33%;
+    height: 33%;
+    transition: all 0.3s ease;
+}
+.box:nth-child(1) {
+    background: green;
+}
+.box:nth-child(2) {
+    background: greenyellow;
+}
+.box:nth-child(3) {
+    background: khaki
+}
+.box:nth-child(4) {
+    background: yellow;
+}
+.box:nth-child(5) {
+    background: darkblue;
+}
+.box:nth-child(6) {
+    background: blue;
+}
+.box:nth-child(7) {
+    background: teal;
+}
+.box:nth-child(8) {
+    background: paleturquoise ;
+}
+.box:nth-child(9) {
+    background: pink ;
+}
+.box:hover {
+    transform: scale(1.2);
+}

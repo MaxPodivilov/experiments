@@ -4,13 +4,13 @@ body {
     margin: 0px;
     padding: 0;
     display: flex;
-    flex-wrap: wrsap;
+    flex-wrap: wrap;
     column-gap: 0px;
     row-gap: 0px;
 }
 .box {
-    width: 33.33%;
-    height: 33.33%;
+    width: 33.3%;
+    height: 33.3%;
     transition: all 0.3s ease;
 }
 .box:nth-child(1) {

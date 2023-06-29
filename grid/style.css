@@ -1,3 +1,47 @@
 body {
+   /* height:100%; */
+   padding: 5px;
+   font-size: 24px;
+   color: #fff;
+}
+* {
+    height: 100%;
     
+}
+.grid-areas * { 
+    padding: 5px 10px;
+    border:2px solid black;
+    background: rgb(82, 82, 221);
+    text-align: center;
+}
+.grid-areas {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas: 
+        "header header"
+        "aside main"
+        "aside footer";
+}
+header {
+    grid-area: header;
+}
+aside {
+    grid-area: aside;
+    display: grid;
+    grid-template-columns: minmax(100px, 200px) 1fr;
+    grid-template-rows: 100px 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+footer {
+    grid-area: footer;
 }
